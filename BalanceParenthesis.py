@@ -15,3 +15,5 @@ def testArray(array, startIndex, currentIndex):
 def main():
     array = [i for i in input()]
     print(testArray(array, 0, 0))
+if __name__ == "__main__":
+    main()
