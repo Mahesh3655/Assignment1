@@ -12,6 +12,6 @@ def testArray(array, startIndex, currentIndex):
     else:
         return testArray(array,startIndex + 1, currentIndex)
 
-
-array = [i for i in input()]
-print(testArray(array, 0, 0))
+def main():
+    array = [i for i in input()]
+    print(testArray(array, 0, 0))
