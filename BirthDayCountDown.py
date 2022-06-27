@@ -6,4 +6,3 @@ def main():
     print((nextDate-presentDate).days)
 if __name__ == "__main__":
     main()
-
